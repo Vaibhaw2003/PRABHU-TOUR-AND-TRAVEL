@@ -39,7 +39,7 @@ export function Footer() {
               </div>
             </Link>
             <p className="text-sm text-muted-foreground mb-6 leading-relaxed">
-              Your trusted partner for comfortable and affordable outstation travel. 
+              Your trusted partner for comfortable and affordable outstation travel.
               We make your journey memorable with experienced drivers and well-maintained vehicles.
             </p>
             <div className="flex items-center gap-4">

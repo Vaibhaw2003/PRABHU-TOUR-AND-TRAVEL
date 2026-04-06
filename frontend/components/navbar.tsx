@@ -27,11 +27,10 @@ export function Navbar() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled
           ? 'bg-background/95 backdrop-blur-md border-b border-border shadow-lg'
           : 'bg-transparent'
-      }`}
+        }`}
     >
       <nav className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16 lg:h-20">
@@ -99,9 +98,8 @@ export function Navbar() {
 
         {/* Mobile Navigation */}
         <div
-          className={`lg:hidden overflow-hidden transition-all duration-300 ${
-            isOpen ? 'max-h-96 pb-4' : 'max-h-0'
-          }`}
+          className={`lg:hidden overflow-hidden transition-all duration-300 ${isOpen ? 'max-h-96 pb-4' : 'max-h-0'
+            }`}
         >
           <div className="flex flex-col gap-2 pt-4 border-t border-border">
             {navLinks.map((link) => (
