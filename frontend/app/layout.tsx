@@ -64,7 +64,7 @@ export default function RootLayout({
         <SmoothScroll>
           {children}
         </SmoothScroll>
-        {process.env.NODE_ENV === 'production' && <Analytics />}
+        <Analytics />
       </body>
     </html>
   )
